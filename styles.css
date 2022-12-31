@@ -14,10 +14,23 @@ body{
     align-items: center;
     background-color: black;
     display: flex;
+    color: white;
     font-display: swap;
     height: inherit;
     justify-content: center;
     font-family: 'Orbitron', sans-serif;
+}
+
+.calchead{
+    position: absolute;
+    top: 10%;
+    font-size: 50px;
+}
+
+.creds{
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
 }
 
 .wrapper{
