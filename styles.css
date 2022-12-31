@@ -1,0 +1,108 @@
+html{
+    box-sizing: border-box;
+    height: 100%;
+    font-family: 'Orbitron', sans-serif;
+}
+
+*,*::before,*::after{
+    box-sizing: inherit;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    align-items: center;
+    background-color: black;
+    display: flex;
+    font-display: swap;
+    height: inherit;
+    justify-content: center;
+    font-family: 'Orbitron', sans-serif;
+}
+
+.wrapper{
+    backdrop-filter: blur(6px);
+    -webkit-backdrop-filter: blur(6px);
+    background: whitesmoke;
+    border: 1px solid rgba(255, 255, 255, 0.555);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(255, 255, 255, 0.464);
+    color: rgb(255, 255, 255);
+    -webkit-backdrop-filter: blur(4px);
+    backdrop-filter: blur(4px);
+    background: rgba(255, 255, 255, 0.133);
+    border: 1px solid rgba(255, 255, 255, 0.113);
+    flex-basis: 400px;
+    height: 540px;
+    padding: 20px 35px;
+}
+
+.type-area{
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    background: rgba(255, 255, 255, .30);
+    border: 1px solid white;
+    border-radius: 15px;
+    box-shadow: 0 4px 30px rgba(35,35,35,0.1);
+    color: white;
+    font-size: 35px;
+    overflow: auto;
+    padding: 20px;
+    text-align: right;
+}
+
+.button-row{
+    display: flex;
+    justify-content: space-between;
+    margin: 5% 0;
+}
+
+.button{
+    cursor: pointer;
+    backdrop-filter: blur(5.5px);
+    -webkit-backdrop-filter: blur (5.5px);
+    background: beige;
+    border: 1px solid Orgba(255, 255, 255, 0.01);
+    border-radius: 20px;
+    box-shadow: 0 4px 30px rgba(35, 35, 35, 0.1);
+    color: #232323;
+    flex-basis: 20%;
+    font-family: inherit;
+    font-size: 24px;
+    height: 65px;
+}
+
+.button:hover{
+    background-color: rgb(255, 255, 180);
+}
+
+.button:active{
+    background-color: rgb(241, 255, 131);
+}
+
+.b2x{
+    flex-basis: 47%;
+}
+
+.b3x{
+    flex-basis: 73%;
+}
+
+.button:last-child{
+    backdrop-filter: blur(5.5px);
+    -webkit-backdrop-filter: blur (5.5px);
+    border: 1px solid Orgba(255, 255, 255, 0.01);
+    border-radius: 20px;
+    box-shadow: 0 4px 30px rgba(35, 35, 35, 0.1);
+    color: #232323;
+    background: orange;
+}
+
+.button:last-child:hover{
+    background-color: rgb(251, 95, 38);
+    color: inherit;
+}
+
+.button:last-child:active{
+    background-color: rgb(255, 115, 0);
+}

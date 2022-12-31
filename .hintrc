@@ -1,0 +1,10 @@
+{
+  "extends": [
+    "development"
+  ],
+  "hints": {
+    "highest-available-document-mode": "off",
+    "compat-api/css": "off",
+    "css-prefix-order": "off"
+  }
+}
